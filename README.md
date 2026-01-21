@@ -43,7 +43,7 @@ When you connect to the ESP32 Wi‑Fi AP `ESP Sense`, a **captive portal** pops 
 - **Captive portal**
   - ESP32 runs a **Wi‑Fi SoftAP**:
     - SSID: `ESP Sense`.  
-    - Password: `espsense123` (change in code).  
+    - Password: `` (change in code), no password makes the AP open and easy to access.  
     - Static IP: `192.168.4.1`.  
   - **DNSServer** answers all DNS queries with the AP IP.  
   - Async HTTP routes handle:
@@ -157,8 +157,8 @@ Via Library Manager / Git:
 ### 3. Clone and open
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/pankajkumarkbn/ESP-Sense.git
+cd ESP-Sense
 ```
 
 - Open the main `.ino` file (ESP Sense) in Arduino IDE or VS Code + PlatformIO.
